@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/sign-in.js" defer> </script>
+    <link rel="stylesheet" href="css/signin.css">
+    <title>Sign in</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+
+<body>
+    <div id="sign-in">
+        <form id="main-form" method="post" autocomplete="off">
+            <label for="email">Email <span style="color: red;">*</span></style></label>
+            <input id="email" class="input" type="email" name="email" placeholder="Enter your email" required>
+            <br> <br>
+            <label for="password1">New password <span style="color: red;">*</span></label>
+            <input id="password" class="input" type="password" name="password1" placeholder="Enter your new password"
+                required>
+            <br> <br>
+            <label for="password2">Re-enter your new password <span style="color: red;">*</span></label> <br>
+            <input class="input" type="password" name="password2" placeholder="Re-enter your password" required>
+            <br> <br>
+            <button id="form-button1" name="form-button" type="submit">Sign in</button>
+        </form>
+    </div>
+</body>
+
+</html>
